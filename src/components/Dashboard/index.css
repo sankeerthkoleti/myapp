@@ -1,0 +1,250 @@
+
+.dashboard{
+    padding:30px;
+    
+    width:100vw;
+}
+.formcontainer{
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+    justify-content:center;
+    height:50%;
+    align-items: center;
+    border-color:aquamarine;
+    width:50vw;
+}
+
+@media screen and (min-width: 768px) {
+    .background{
+      display: flex;
+    }
+  }
+
+  .details {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .details {
+      width:25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+    }
+  }
+  .detail {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .detail {
+      width:25%;
+      
+      align-items:center;
+    }
+  }
+ .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 424px;
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+  }
+  @media screen and (min-width: 768px) {
+    .form {
+      width:80%;
+    }
+  }
+  .formi {
+    display: flex;
+    flex-direction: column;
+    align-self:flex-start;
+    align-items: flex-start;
+    max-height: 424px;
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+  }
+ 
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg');
+    background-size: cover;
+    height: 172px;
+    border-radius: 16px;
+    margin-bottom:30px;
+  }
+  .container{
+    width:100vw;
+  }
+  @media screen and (min-width: 768px) {
+    .container {
+      width:50vw;
+    }
+    
+  }
+
+  
+  
+  @media screen and (min-width: 768px) {
+    .header-container {
+      align-items: flex-start;
+      padding: 48px;
+    }
+  }
+  
+  .heading {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .heading {
+      font-size: 30px;
+    }
+  }
+  .header-content {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin: 0px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .header-content {
+      font-size: 18px;
+    }
+  }  
+  .b-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ecfccb;
+    width: 50%;
+    border: 1px solid #84cc16;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    height:6vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .b-container {
+    width: 30%;
+    margin-right: 0px;
+  }
+  
+
+  .c-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #cffafe;
+    border: 1px solid #06b6d4;
+    width: 80%;
+    
+    border-radius: 16px;
+    margin-bottom: 16px;
+    height:6vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .c-container {
+    width: 100%;
+    margin-right: 0px;
+    height:7vh;
+    margin-top:40px;
+    
+  }
+
+  .input-label {
+    color: #7e858e;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 0px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    
+    .c-container{
+        width:80%;
+        margin-top:0px;
+    }
+  }
+  .input {
+    color: #1e293b;
+    background-color: #ffffff;
+    font-family: 'Roboto';
+    border: 1px solid #d7dfe9;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-width: 157px;
+  }
+  
+
+  .d-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ede9fe;
+    border: 1px solid #7c3aed;
+    width: 80%;
+    
+    border-radius: 16px;
+    margin-bottom: 16px;
+    height:6vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .d-container {
+    width: 100%;
+    margin-right: 0px;
+    height:7vh;
+    margin-top:40px;
+    
+  }
+
+  @media screen and (min-width: 768px) {
+    
+    .d-container{
+        width:80%;
+        margin-top:0px;
+    }
+  }
+
+  .f{
+    display:flex;
+  }

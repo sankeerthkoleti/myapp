@@ -1,0 +1,123 @@
+/* Write your CSS here */
+.table-row {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border-bottom: 1px solid #cbd5e1;
+    border-right: 1px solid #cbd5e1;
+    border-left: 1px solid #cbd5e1;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:53.3vw;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .table-row {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+  
+  .userItem-text {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 12px;
+    width: 30%;
+  }
+  li {
+    display: flex;
+    width:100%;
+  }
+  @media screen and (min-width: 768px) {
+    .userItem-text {
+      font-size: 14px;
+    }
+  }
+  
+  .table-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 48px;
+    list-style-type: none;
+    border: 2px solid #4b5a6c;
+    border-style:solid;
+    padding-left: 10px;
+    padding-right: 8px;
+    width:100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    .table-header{
+      padding-left: 24px;
+      padding-right: 24px;
+      width:100%vw;
+    }
+  }
+
+  .table-header-cell {
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+    width: 40%;
+    border-right: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .table-header-cell {
+      font-size: 16px;
+      width:30%;
+    }
+  }
+  
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cbd5e1;
+    border-right: 1px solid #cbd5e1;
+    border-left: 1px solid #cbd5e1;
+    width:100%;
+    padding-right: 10px;
+    min-height:8vh;
+    overflow:hidden;
+    align-items:center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .table-row {
+      width:100%;
+      padding-right: 24px;
+
+    }
+  }
+  
+  
+  .table-header-cell {
+    color: #334155;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+    width: 100vw;
+    border-right: none;
+  }
+
+  
+  
+  @media screen and (min-width: 768px) {
+    .table-header-cell {
+      font-size: 16px;
+      width:50vw;
+    }
+  }
+  
+  .ttable{
+    width:80vw;
+    padding:0px;
+  }
+  @media screen and (min-width: 768px) {
+    .ttable {
+      
+      width:50vw;
+    }
+  }
